@@ -30,7 +30,7 @@ body {
   .box1{
     display: flex;
     width:102.5px;
-    height: 25px;
+    height: 30px;
     border-left:2px solid black;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
@@ -81,16 +81,6 @@ body {
     text-decoration: none;
   } */
   
-  section {
-    padding: 20px;
-    width: 390px;
-    height: 230px;
-    background-color: hwb(0 92% 4%);
-    /* margin: 20px; */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 4px;
-    border-bottom: #361111;
-  }
   .box {
     margin: auto;
     width: 430px;
@@ -150,8 +140,118 @@ body {
   margin-right: 0px;
 }
 #section1{
-  border-radius: 15px 15px 0px 0px;
+  margin-top: 10px;
+  border-radius: 15px 15px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  width: 390px;
+  height: 230px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 4px;
+  border-bottom: #361111;
+ 
+
 }
+.cover1{
+  
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.len{
+  font-family: Arial sans-serif;
+  margin: 10px;
+  
+}
+.sec1{
+  display: flex;
+}
+.text1{
+  flex-direction: column;
+  font-family: Arial sans-serif;
+  margin-left: 40px;
+}
+.text2{
+  flex-direction: column;
+  font-family: Arial sans-serif;
+  margin-left: 40px;
+}
+#iconlen{
+  display: flex;
+}
+#iconsa{
+  display: flex;
+}
+.ri-heart-line{
+  margin: 15px;
+}
+.ri-chat-3-line{
+  margin: 15px 150px ;
+}
+.ri-folder-shared-line{
+  margin: 15px 0px 0px 0px;
+}
+
+#section2{
+  border-radius: 15px 15px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  width: 390px;
+  height: 359px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 4px;
+  border-bottom: #361111;
+}
+.cover2{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.cover3{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.ousa{
+  font-family: Arial sans-serif;
+  margin: 10px;
+}
+.sec2{
+  display: flex;
+}
+
 #section3{
-  border-radius: 0px 0px 15px 15px;
+  margin-top: 5px;
+  border-radius: 15px 15px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  width: 390px;
+  height: 90px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+
+  margin-bottom: 4px;
+  border-bottom: #361111;
+ 
+
+}
+.ousaimg{
+  margin-top: 5px;
+  border-radius: 15px;
+}
+#morning{
+  display: flex;
+  margin-top: 6px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.fine{
+  display: flex;
+  color: red;
+  flex-direction: column;
+  margin-top: 1px;
 }
